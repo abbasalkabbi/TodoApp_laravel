@@ -39,7 +39,7 @@
                 <form method="POST"  action="{{Route('add.item')}}" class="d-flex justify-content-center align-items-center mb-4">
                     @csrf
                     <div class="form-outline flex-fill">
-                        <input type="text" id="form3" class="form-control form-control-lg" placeholder="What do you need to do today?" />
+                        <input type="text" id="form3" name="context" class="form-control form-control-lg" placeholder="What do you need to do today?" />
                     </div>
                     <button type="submit" class="btn btn-primary btn-lg ms-2">Add</button>
                 </form>
